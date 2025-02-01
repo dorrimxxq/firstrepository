@@ -3,7 +3,7 @@ def corr():
         a = input('Введите пароль: ')
         if a == password:
             print('Верный пароль')
-            break
+            return
         else:
             print('Неверный пароль')
             if i == 2:
