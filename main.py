@@ -6,8 +6,7 @@ def corr():
             return
         else:
             print('Неверный пароль')
-            if i == 2:
-                print('Повторите попытку позже')
+    print('Повторите попытку позже')
 password= "123"
 corr()
 
